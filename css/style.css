@@ -1,2 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+a {
+    color: rgb(230, 149, 29);
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.hero-content{
+    width: 450px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 250px;
+    padding-right: 150px;
+}
+
+.hero-img {
+    width: 500px;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 500px;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    
+}
