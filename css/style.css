@@ -16,13 +16,25 @@ a {
     color: rgb(230, 149, 29);
     text-decoration: none;
 }
+.hero-img{
+    width: 700px;
+    height: auto;
+    box-sizing: border-box;
+    border: rgb(230, 149, 29) 2px solid;
+    border-radius: 20px;
+}
 
-.header {
+.logo{
+    width: 150px;
+    height: auto;
+}
+.header,
+.hero {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    padding: 15px 600px;
-    height: 600px;
+    background-color: #1f2937;
+    padding: 10px 200px;
+    align-items: center;
 }
 
 .logo {
@@ -33,4 +45,38 @@ a {
 .main-nav ul{
     display: flex;
     gap: 25px;
+    font-size: 18px;
+    font-weight: 600;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hero-left {
+    width: 600px;
+}
+
+.signup {
+    padding: 7px 30px;
+    background-color: #3882F6;
+    border-radius: 9px;
+    border: none;
+    color: white;
+}
+
+
