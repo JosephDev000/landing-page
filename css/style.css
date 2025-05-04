@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 .hero-img{
-    width: 700px;
+    max-width: 700px;
     height: auto;
     box-sizing: border-box;
     border: rgb(230, 149, 29) 2px solid;
@@ -32,6 +32,8 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
     background-color: #1f2937;
     padding: 10px 200px;
     align-items: center;
@@ -79,4 +81,35 @@ a {
     color: white;
 }
 
+.info-header {
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
 
+.info-card img{
+    width: 300px;
+    height: 300px;
+    border: rgb(230, 149, 29) 5px solid;
+    border-radius: 20px;
+}
+
+.info-card {
+    width: 300px;
+}
+
+.info-text {
+    text-align: center;
+    width: 300px;
+}
+.info-picks {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
